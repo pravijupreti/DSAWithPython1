@@ -1,7 +1,7 @@
 class Solution:
     def divide(self, dividend: int, divisor: int) -> int:
         divisorval =0;
-        strnum = str(divisor);
+        strnum = str(divisor);      
         if str(divisor)[0] == "-":
             divisor = int(str(divisor)[1:]);
         if dividend == divisor:
